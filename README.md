@@ -1,5 +1,5 @@
 # Project_Euler_Problems
-Solutions to the problems on Project Euler in Python.
+Solutions to the problems on Project Euler using Python.
 
 https://projecteuler.net/archives
 
@@ -7,4 +7,4 @@ https://projecteuler.net/archives
 * Python 3.X
 
 ## Running problems
-Each Python script has a description of the Euler Problem, and a specific solution to that exact Euler problem. All scripts contain generic functions to the Euler problem, and the specific instance of the problem is called. 
+Each Python script contains a generic function, has a description of the Euler problem, and a specific case of the function for the purposes of solving the Euler problem.

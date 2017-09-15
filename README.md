@@ -7,4 +7,4 @@ https://projecteuler.net/archives
 * Python 3.X
 
 ## Running problems
-Each Python script has a description of the Euler Problem, and a specific solution to that exact Euler problem. Many scripts contain functions that generalize the Euler problem, though they are not called. 
+Each Python script has a description of the Euler Problem, and a specific solution to that exact Euler problem. All scripts contain generic functions to the Euler problem, and the specific instance of the problem is called. 

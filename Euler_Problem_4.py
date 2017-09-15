@@ -8,23 +8,9 @@
 #                     Find the largest palindrome made from the product of two 3-digit numbers.
 
 
-my_list = []
-for a in range(1, 1000):
-    for b in range(1, 1000):
-        num = a * b
-        num_string = str(num)
-        num_reverse = num_string[::-1]
-        if num_string == num_reverse:
-            my_list.append(num)
-
-print(max(my_list))
-
-#                   : Generic function to find the largest palindrome made from the product of number up to limit n.
-
-
 def palindrome(limit):
     """
-    Find the largest palindrome from the multiplication of all numbers to limit.
+    Find the largest palindrome from the multiplication of all numbers up to the limit.
     :param limit: Upper limit.
     :return: [int] Maximum value from a list of palindromes.
     """
@@ -40,3 +26,8 @@ def palindrome(limit):
                 num_list.append(number)
 
     return max(num_list)
+
+
+# Solution for the specific case of Euler problem number 4.
+solution = palindrome(1000)
+print(solution)

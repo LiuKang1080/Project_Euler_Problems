@@ -7,17 +7,6 @@
 #                     The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
 
 
-total_count = 0
-for num in range(0, 1000):
-    if num % 3 == 0 or num % 5 == 0:
-        total_count += num
-
-print(total_count)
-
-
-#                   : Generic function to find the sum of all multiples of 3 or 5 below number n.
-
-
 def multiple(limit):
     """
     Find sum of all numbers below the limit number that are multiples of 3 and 5.
@@ -31,3 +20,8 @@ def multiple(limit):
             total_sum += number
 
     return total_sum
+
+
+# Solution for the specific case of Euler problem number 1.
+solution = multiple(1000)
+print(solution)

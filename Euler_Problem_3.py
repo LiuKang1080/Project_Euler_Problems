@@ -31,7 +31,9 @@ def largest_prime(num):
                 num = num / i
             i += 1
 
-    print(max(prime_list))
+    return max(prime_list)
 
 
-largest_prime(600851475143)
+# Solution for the specific case of Euler problem number 3.
+solution = largest_prime(600851475143)
+print(solution)

@@ -24,10 +24,10 @@ def fibonacci(n):
             count += y
 
         if y >= n:
-            # when the term in the sequence reaches value n, return total sum of even numbers; break.
-
-            print(count)
-            break
+            # When the term in the sequence reaches value n, return total sum of even numbers; return count.
+            return count
 
 
-fibonacci(4000000)
+# Solution for the specific case of Euler problem number 2.
+solution = fibonacci(4000000)
+print(solution)

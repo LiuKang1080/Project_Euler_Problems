@@ -8,3 +8,8 @@ https://projecteuler.net/archives
 
 ## Solving Euler Problems
 Each Python script contains a description of the Euler problem, a generic function, and specific parameters for the purposes of solving the Euler problem.
+Ex)
+```
+solution = name_of_function(specific_data)
+print(solution)
+```

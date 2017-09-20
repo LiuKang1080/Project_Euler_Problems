@@ -1,5 +1,5 @@
 # Project_Euler_Problems
-Solutions to the problems on Project Euler using Python.
+Project Euler is a website that has a series of methematical problems intended to be solved with computer programs. Solutions to the problems on Project Euler using Python.
 
 https://projecteuler.net/archives
 

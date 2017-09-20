@@ -7,4 +7,4 @@ https://projecteuler.net/archives
 * Python 3.X
 
 ## Solving Euler Problems
-Each Python script contains a description of the Euler problem, a generic function, and a specific case of the function for the purposes of solving the Euler problem.
+Each Python script contains a description of the Euler problem, a generic function, and specific parameters for the purposes of solving the Euler problem.

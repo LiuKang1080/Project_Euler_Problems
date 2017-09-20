@@ -6,5 +6,5 @@ https://projecteuler.net/archives
 ## Prerequisites
 * Python 3.X
 
-## Running problems
-Each Python script contains a generic function, has a description of the Euler problem, and a specific case of the function for the purposes of solving the Euler problem.
+## Solving Euler Problems
+Each Python script contains a description of the Euler problem, a generic function, and a specific case of the function for the purposes of solving the Euler problem.

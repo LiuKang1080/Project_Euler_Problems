@@ -12,9 +12,9 @@
 
 def difference(limit):
     """
-    Difference between the sum of squares and the square of the sum of all number from 1 to limit.
+    Difference between the square of sums and the sum of squares of all numbers from 1 to the limit.
     :param limit: Upper limit of calculation.
-    :return: [int] Difference.
+    :return: [int] Absolute value of the difference.
     """
     sum_of_squares = []
     square_of_sums = []
@@ -28,7 +28,7 @@ def difference(limit):
     total_square_of_sums = sum(square_of_sums)
     total_square_of_sums = (total_square_of_sums ** 2)
 
-    return total_square_of_sums - total_sum_of_squares
+    return abs(total_square_of_sums - total_sum_of_squares)
 
 
 print(difference(100))

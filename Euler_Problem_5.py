@@ -34,4 +34,5 @@ def smallest_number(limit):
     return min(solution)
 
 
+# Solution for the specific case of Euler problem number 5.
 print(smallest_number(20))

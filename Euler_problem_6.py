@@ -31,4 +31,5 @@ def difference(limit):
     return abs(total_square_of_sums - total_sum_of_squares)
 
 
+# Solution for the specific case of Euler problem number 6.
 print(difference(100))

@@ -11,7 +11,7 @@
 def smallest_number(limit):
     """
     calculates the smallest number that can be evenly divisible by all numbers from 1 to limit.
-    :param limit: Upper limit.
+    :param limit: Upper limit of calculation.
     :return: [int] Smallest number that is divisible by all numbers to limit.
     """
     # Populate empty list with number from 1 to limit.

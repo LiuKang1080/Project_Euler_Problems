@@ -28,6 +28,11 @@ def prime_check(num):
 
 
 def prime_num_term(num):
+    """
+    Add all prime numbers to a counter.
+    :param num: Number to check if prime.
+    :return:
+    """
     n = 0
     count = 0
     while count != num:

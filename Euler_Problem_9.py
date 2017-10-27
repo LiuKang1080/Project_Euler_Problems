@@ -12,7 +12,7 @@
 def pythagorean_triplet():
     """
     Calculate the Pythagorean Triplet.
-    :return: [int]
+    :return: [int] Product of the Pythagorean Triplet.
     """
     triplet_list = []
 

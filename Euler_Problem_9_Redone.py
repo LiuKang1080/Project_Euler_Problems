@@ -11,7 +11,7 @@
 
 def pythagorean_triplet():
     """
-    Calculate the Pythagorean Triplet.
+    Calculate the product of the Pythagorean Triplet.
     :return: [int] Product of the Pythagorean Triplet.
     """
     for c in range(3, 1000):
